@@ -11,8 +11,8 @@ import java.net.ProtocolException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Date;
-import org.springframework.boot.autoconfigure.mail.MailProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.mail.autoconfigure.MailProperties;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Service;
 
